@@ -1,0 +1,23 @@
+# 1. Clonar el repositorio que acabas de crear
+git clone https://github.com/jsantizogt/orderflow-frontend.git
+cd orderflow-frontend
+
+# 2. Crear la estructura de carpetas
+mkdir src public
+
+# 3. Crear todos los archivos que te di:
+# - Copia el contenido de cada artifact a su archivo correspondiente
+# - package.json (raíz)
+# - Dockerfile (raíz)
+# - vite.config.js (raíz)
+# - tailwind.config.js (raíz)
+# - index.html (raíz)
+# - .gitignore (raíz)
+# - src/App.jsx
+# - src/main.jsx
+# - src/index.css
+
+# 4. Commit y push
+git add .
+git commit -m "Initial commit: OrderFlow Frontend"
+git push origin main
